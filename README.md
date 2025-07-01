@@ -1,13 +1,3 @@
-<h1 align="center">Laravel 8 Quiz</h1>
-
-## Author
-
-Laravel 8 Quiz dibaut oleh :
-
-- Github : <a href="https://github.com/musyahya"> Musyahya </a>
-- Youtube : <a href="https://www.youtube.com/channel/UC1iCvpMssrHnUsWKEe2cOag"> Musyahya </a>
-- Demo : <a href="http://whispering-plains-43344.herokuapp.com/"> Demo Program </a>
-
 ## Fitur 
 
 - CRUD Quiz
@@ -95,11 +85,3 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-## Kontribusi
-
-Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
-
-## License
-
-- Copyright © 2021 Musyahya.
