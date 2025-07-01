@@ -20,9 +20,8 @@ class CekRoleController extends Controller
             } else {
                 return redirect('/dashboard/murid');
             }
-        }else {
+        } else {
             return redirect('/login');
         }
-        
     }
 }

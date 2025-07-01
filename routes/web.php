@@ -44,7 +44,7 @@ Route::middleware(['auth', 'role:murid'])->group(function () {
     Route::get('/lihat_jawaban', LihatJawabanController::class);
 });
 
-Route::middleware(['auth','role:guru'])->group(function () {
+Route::middleware(['auth', 'role:guru'])->group(function () {
     Route::get('/dashboard/guru', GuruDashboard::class);
     Route::get('/quiz', GuruQuiz::class);
     Route::resource('/soal', GuruSoal::class);

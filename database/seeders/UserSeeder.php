@@ -17,17 +17,17 @@ class UserSeeder extends Seeder
     {
         User::create([
             'name' => 'guru',
-            'email' => 'guru@gmail.com',
-            'password' => bcrypt('123123123')
+            'email' => 'guru@guru.com',
+            'password' => bcrypt('guru')
         ])->assignRole('guru');
 
         User::create([
             'name' => 'murid',
-            'email' => 'murid@gmail.com',
-            'password' => bcrypt('123123123')
+            'email' => 'murid@murid.com',
+            'password' => bcrypt('murid')
         ])->assignRole('murid');
 
-        for ($i=0; $i < 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             $faker = Factory::create('id_ID');
             User::create([
                 'name' => $faker->name(),
