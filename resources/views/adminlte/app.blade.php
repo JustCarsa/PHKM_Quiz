@@ -9,9 +9,19 @@
 </head>
 
 @if (auth()->user()->hasRole('guru'))
+    <style>
+        .content-wrapper {
+            background-color: #FFFFFF !important;
+        }
+    </style>
 
     <body class="hold-transition sidebar-mini layout-fixed">
     @else
+        <style>
+            .content-wrapper {
+                background-color: hsl(0, 0%, 100%) !important;
+            }
+        </style>
 
         <body class="hold-transition layout-top-nav">
 @endif
@@ -51,8 +61,6 @@
         </section>
         <!-- /.content -->
     </div>
-    <!-- /.content-wrapper -->
-    @include('adminlte/footer')
 
 </div>
 <!-- ./wrapper -->
